@@ -3,7 +3,7 @@ var placeholders = "";
 var ABC = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var abc = "abcdefghijklmnopqrstuvwxyz";
 var numbs= "012345678901234567890";
-var symbs="~`!@#$%^&*()_+{[]}|\:;<,>.?/";
+var symbs= "~`!@#$%^&*()-_+={[]}|\:;<,>.?/";
 var lowerval = document.getElementById('lowercheck');
 var upperval = document.getElementById('uppercheck');
 var numval = document.getElementById('numcheck');
