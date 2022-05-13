@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onload="myFunction()">
+
+        <center id="centered">
+<div id="Everything">
+    <h1 id="Title">Password Gen</h1>
+    <h2 id="Options">Selections</h2>
+    <br>
+
+    <input onclick="lowercase()" type="checkbox" id="lowercheck">
+    <h4 id="lowercase">Lowercase characters</h4>
+    <br>
+    
+    <input onclick="uppercase()" type="checkbox" id="uppercheck">
+    <h4 id="uppercase">Uppercase characters</h4>
+    <br>
+    
+    <input onclick="numbers()" type="checkbox" id="numcheck">
+    <h4 id="numbers">Numbers characters</h4>
+    <br>
+    
+    <input onclick="symbols()" type="checkbox" id="symcheck">
+    <h4 id="symbols">Symbols characters</h4>
+
+    <p>Length of Password:</p><input type="range" min="16" max="32" value="16" id="changinglength">
+    <br>
+    <br>
+
+    <button id="finish" onclick="finish()">Generate</button>
+    <h4 id="result">Password: </h4>
+    
+</div>
+        </center>
+
+    <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

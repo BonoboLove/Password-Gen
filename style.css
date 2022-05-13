@@ -1,0 +1,81 @@
+body{
+    background: linear-gradient(#110f68, #00053d) fixed;
+    color: rgb(1, 0, 66);
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Raleway', sans-serif;
+}
+
+#centered{
+    margin-top: -7.5%;
+}
+
+#Everything{
+    width: 400px;
+    height: 600px;
+    background: #fff;
+    background: linear-gradient(rgb(60, 62, 196), #00265f) fixed;
+    border-radius: 15px;
+}
+
+#Title{
+    margin-left: 1%;
+    margin-top: 75%;
+}
+
+#Options{
+    margin-left: 3.5%;
+}
+
+#lowercase{
+    margin-left: -25%;
+}
+
+#lowercheck{
+    margin-left: 4%;
+    margin-top: 1.25%;
+    position: absolute;
+}
+
+#uppercase{
+    margin-left: -25%;
+}
+
+#uppercheck{
+    margin-left: 4%;
+    margin-top: 1.25%;
+    position: absolute;
+}
+
+#numbers{
+    margin-left: -25%;
+}
+
+#numcheck{
+    margin-left: 4%;
+    margin-top: 1.25%;
+    position: absolute;
+}
+
+#symbols{
+    margin-left: -25%;
+}
+
+#symcheck{
+    margin-left: 4%;
+    margin-top: 1.25%;
+    position: absolute;
+}
+
+#finish{
+    background: linear-gradient(#110f68, #00053d) fixed;
+    color: #fff;
+    border: 1px solid #000;
+    width: 35%;
+    height: 5%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#finish:hover{
+    opacity: .7;
+}
